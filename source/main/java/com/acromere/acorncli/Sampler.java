@@ -1,4 +1,4 @@
-package com.avereon.acorncli;
+package com.acromere.acorncli;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;

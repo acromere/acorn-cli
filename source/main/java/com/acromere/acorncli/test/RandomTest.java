@@ -1,4 +1,4 @@
-package com.avereon.acorncli.test;
+package com.acromere.acorncli.test;
 
 import java.util.Random;
 

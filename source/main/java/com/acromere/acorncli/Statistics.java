@@ -1,4 +1,4 @@
-package com.avereon.acorncli;
+package com.acromere.acorncli;
 
 public class Statistics {
 

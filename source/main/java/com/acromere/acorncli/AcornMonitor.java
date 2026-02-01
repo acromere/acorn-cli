@@ -1,6 +1,6 @@
-package com.avereon.acorncli;
+package com.acromere.acorncli;
 
-import com.avereon.acorncli.test.HashTest;
+import com.acromere.acorncli.test.HashTest;
 import lombok.CustomLog;
 
 import java.util.*;

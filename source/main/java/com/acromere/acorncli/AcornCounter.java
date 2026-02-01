@@ -1,7 +1,7 @@
-package com.avereon.acorncli;
+package com.acromere.acorncli;
 
-import com.avereon.skill.Controllable;
-import com.avereon.skill.Joinable;
+import com.acromere.skill.Controllable;
+import com.acromere.skill.Joinable;
 
 import java.util.function.Consumer;
 

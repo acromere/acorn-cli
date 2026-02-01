@@ -1,8 +1,8 @@
-package com.avereon.acorncli;
+package com.acromere.acorncli;
 
-import com.avereon.acorncli.test.HashTest;
-import com.avereon.product.ProductCard;
-import com.avereon.util.TextUtil;
+import com.acromere.acorncli.test.HashTest;
+import com.acromere.product.ProductCard;
+import com.acromere.util.TextUtil;
 import lombok.CustomLog;
 
 import java.util.concurrent.atomic.AtomicInteger;
