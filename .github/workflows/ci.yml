@@ -1,4 +1,4 @@
-name: Acromere Acorn CLI CI
+name: Acorn CI
 
 on:
   push:
