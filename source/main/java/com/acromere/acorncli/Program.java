@@ -4,29 +4,27 @@ import com.acromere.acorncli.test.HashTest;
 import com.acromere.product.ProductCard;
 import com.acromere.util.TextUtil;
 import lombok.CustomLog;
+import lombok.Getter;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.Consumer;
 
+@Getter
 @CustomLog
 public class Program {
 
 	private final ProductCard card;
 
 	public Program() {
-		this.card = ProductCard.info( getClass() );
+		this.card = ProductCard.card( getClass() );
 	}
 
 	public static void main( String[] commands ) {
 		new Program().run( commands );
 	}
 
-	public ProductCard getCard() {
-		return card;
-	}
-
-	public void run( String[] commands ) {
+	public void run( String[] ignored ) {
 		printHeader( card );
 
 		AcornMonitor monitorAll = new AcornMonitor( Runtime.getRuntime().availableProcessors(), new HashTest() );
